@@ -188,3 +188,17 @@ Airline Ticketing System is a RESTful API built with **ASP.NET Core** and **Enti
 3. Authorize Swagger UI by adding the token (`Bearer <token>`).
 4. Test the endpoints by adding flights, purchasing tickets, and performing check-in operations.
 
+
+## Troubleshooting
+
+- **Database Connection Issues**:
+  - Ensure SQL Server is running and the connection string in `appsettings.json` is correct.
+- **Authorization Errors**:
+  - If the authorize part is incorrect, you will see the following error:
+    ```
+    401 Unauthorized
+    ```
+    - **Solution**: Verify the JWT token is correctly added in Swagger UI (`Bearer <token>` format). Ensure you have logged in using `/api/v1/auth/login` and copied the token correctly. Also, check if the user has the required role (e.g., Admin for adding flights).
+
+
+![error](https://github.com/user-attachments/assets/d857e6ba-95c7-4127-a5f0-3be43fa566b6)
