@@ -4,6 +4,9 @@
 
 Airline Ticketing System is a RESTful API built with **ASP.NET Core** and **Entity Framework Core**. It provides functionalities for managing flights, purchasing tickets, and performing check-in operations for an airline system. The project uses **SQL Server** as the database and includes features like user authentication with JWT, flight management, ticket purchasing, and passenger check-in.
 
+## Video Link:
+https://drive.google.com/file/d/1Q_RJsTHyZZZDAxhwSZoKVphlTRsk2xfq/view?usp=sharing
+
 ### Features
 
 - **Flight Management**: Add and query flights (Admin only).
@@ -202,3 +205,8 @@ Airline Ticketing System is a RESTful API built with **ASP.NET Core** and **Enti
 
 
 ![error](https://github.com/user-attachments/assets/d857e6ba-95c7-4127-a5f0-3be43fa566b6)
+
+
+## ER Data Model 
+![ERforairlinesystem](https://github.com/user-attachments/assets/fa3f5d60-8006-401e-bfee-bd1cfe4e6596)
+
